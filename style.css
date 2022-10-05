@@ -1,0 +1,92 @@
+body {
+    /*background: #F08080;*/
+    background: #ddd9ce;
+    font-size: 30px;
+    color: rgb(7, 8, 8);
+}
+
+h1 {
+    text-align: center;
+    border-radius: 450%;
+    /*background: #CD5C5C;*/
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+nav li {
+	display: run-in;
+	margin: 5px 0 0 5px;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 1%;
+    border-bottom: 0px solid #999;
+}
+
+nav ul li i {
+    float: left;
+    padding: 8px;
+    cursor: pointer;
+}
+
+nav ul li i:hover {
+    color: #2209ff
+}
+
+nav a {
+	color: #000000;
+    font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #2209ff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.foto {
+    display: inline-block;
+	text-align: center;
+	width: 23%;
+	vertical-align: top;
+	margin: 0 4%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+#imagem_meio {
+    margin: auto;
+    display: block;
+    width: 25%;
+    /*border-style: dotted;*/
+    box-sizing: border-box;
+    border: 1px dashed #000000;
+}
+
+footer {
+        text-align: center;
+        height: 100%;
+        padding: 30px 0;
+    }
+    
+#logo {
+    width: 50px;
+    margin: 150px 0 0 0;
+    border: 1px solid rgb(8, 8, 8);
+    
+}
+.copyright {
+	color: black;
+	font-size: 13px;
+	margin: 2px 0 0;
+    text-align: center;
+}
+
+
